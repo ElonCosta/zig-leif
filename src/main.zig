@@ -18,7 +18,7 @@ pub fn main() !void {
         c.glClear(c.GL_COLOR_BUFFER_BIT);
         c.glClearColor(0.1, 0.1, 0.1, 1.0);
 
-        leif.lf_init(@src());
+        leif.zlf_begin(@src());
         leif.lf_text("Hello, ZigLeif!");
 
         leif.lf_end();
